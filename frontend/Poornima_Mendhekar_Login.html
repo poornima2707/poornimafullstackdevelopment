@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Login page for user authentication">
+    <title>Login</title>
+</head>
+<body>
+    <header>
+        <h1 align="center">Login Page</h1>
+    </header>
+
+    <main>
+        <table border="1" width="40%" align="center" cellpadding="10" bgcolor="lightblue">
+            <!-- Title Row -->
+            <tr bgcolor="yellow">
+                <td colspan="2" align="center">
+                    <h3>Please Login</h3>
+                </td>
+            </tr>
+            
+            <!-- Login Form Row -->
+            <tr bgcolor="lightgreen">
+                <td colspan="2">
+                    <form action="welcome.html" method="POST">
+                        <table width="100%">
+                            <tr>
+                                <td align="right">
+                                    <label for="username">Username:</label>
+                                </td>
+                                <td>
+                                    <input type="text" id="username" name="username" required>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="right">
+                                    <label for="password">Password:</label>
+                                </td>
+                                <td>
+                                    <input type="password" id="password" name="password" required>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" align="center">
+                                    <input type="submit" value="Login">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" align="center">
+                                    <a href="#">Forgot Password?</a>
+                                </td>
+                            </tr>
+                        </table>
+                    </form>
+                </td>
+            </tr>
+        </table>
+    </main>
+
+</body>
+</html>
